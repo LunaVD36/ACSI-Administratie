@@ -1,0 +1,106 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+header {
+    background-color: #00b7c9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #00b7c9;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #FEC200;
+    padding: 20px;
+}
+
+nav a {
+    margin: 0 60px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.diensten {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex;
+}
+
+.dienst {
+    color: white;
+    flex: 1 1 calc(50% - 20px);
+    padding-left: 60px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: #00b8c9;
+    border-radius: 8px;
+}
+
+ol li::marker {
+    font-size: 24px;
+    color: #FEC200;
+    font-weight: bold;
+}
+
+.logo {
+    width: 200px; 
+    height: auto; 
+    margin: auto; 
+    padding-top: 20px;
+    display: center;
+
+}
+
+.header-container {
+    align-items: center;
+    flex: 1; 
+}
+
+.home-image {
+    margin: 0; /* Verwijder automatische centrering */
+    padding: 0; /* Verwijder eventuele padding */
+    width: 100%; /* Zorg ervoor dat de container de volledige breedte inneemt */
+}
+
+.home-image img {
+    width: 100vw;
+    height: auto;
+    max-height: 400px; /* Pas de maximale hoogte aan naar wens */
+    object-fit: cover;
+    display: block;
+}
+h1 {
+    text-align: center;
+    font-size: 35px
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h2 {
+    color: #00b7c9;
+}
